@@ -6,13 +6,36 @@
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: -1px 2px 6px rgba(2, 48, 71, 0.54);
-  background: rgb(0, 204, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 204, 255, 1) 0%,
-    rgba(115, 33, 188, 1) 100%
-  );
+  text-shadow: -1px 16px 16px rgba(2, 48, 71, 0.54);
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
 /* #219ebc */
 

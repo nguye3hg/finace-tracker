@@ -1,16 +1,20 @@
 .expense-tracker {
-  width: 100vw;
+  width: 100%;
+  margin: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   color: #023047;
+  overflow-x: hidden;
 }
 
 .expense-tracker h1 {
   font-size: 40px;
 }
 .expense-tracker button {
+  background-color: black;
+  color: #ffffff;
   margin-left: 10px;
 }
 .profile {
@@ -28,8 +32,8 @@
   border: none;
   margin-top: 50px;
   width: 150px;
-  background: #3498db;
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  background: black;
+  background-image: lblack;
   border-radius: 10px;
   color: #ffffff;
   font-size: 22px;
@@ -45,9 +49,13 @@
   text-decoration: none;
   cursor: pointer;
 }
-
+.transaction-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .transactions {
-  margin-left: 430px;
   margin-top: 20px;
   padding-left: 10px;
   width: 600px;

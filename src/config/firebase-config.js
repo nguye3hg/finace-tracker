@@ -7,12 +7,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyApAHHVSD-9BId-GMj7BAA0IUX91LeosB0",
-  authDomain: "expense-tracker-d14e8.firebaseapp.com",
-  projectId: "expense-tracker-d14e8",
-  storageBucket: "expense-tracker-d14e8.appspot.com",
-  messagingSenderId: "738196435189",
-  appId: "1:738196435189:web:007916e2e57f751fe6d5bc",
+  apiKey: "AIzaSyCLj1vJlA-B0EoUo_6ceyLHRfnZwCKF8-I",
+  authDomain: "expense-tracker-236d3.firebaseapp.com",
+  projectId: "expense-tracker-236d3",
+  storageBucket: "expense-tracker-236d3.appspot.com",
+  messagingSenderId: "1037240861784",
+  appId: "1:1037240861784:web:4ee0e2857bc974d6abb62d",
+  measurementId: "G-4KF4BJNTMY"
 };
 
 // Initialize Firebase

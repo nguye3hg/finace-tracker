@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import "./styles.css";
 import { auth } from "../../config/firebase-config";
 
+
 export const ExpenseTracker = () => {
   const { addTransaction } = useAddTransaction();
   const { transactions, transactionTotals } = useGetTransactions();
@@ -106,6 +107,7 @@ export const ExpenseTracker = () => {
           </div>
         )}
       </div>
+      <div className="transaction-wrapper">
       <div className="transactions">
         <h3> Transactions</h3>
         <ul>
@@ -130,6 +132,7 @@ export const ExpenseTracker = () => {
             );
           })}
         </ul>
+      </div>
       </div>
     </>
   );
