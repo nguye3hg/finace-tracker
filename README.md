@@ -1,4 +1,5 @@
 # 💰 Expense Tracker App
+![Dashboard Screenshot](https://raw.githubusercontent.com/nguye3hg/finace-tracker/main/Screenshot%202025-05-23%20134813.png)
 A simple web-based Expense Tracker built with React and Firebase (Authentication + Firestore). Users can sign in, record income and expenses with descriptions, and view real-time balances and transaction history.
 
 # 🚀 Features
